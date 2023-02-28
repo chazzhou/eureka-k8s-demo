@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: containerized-orders
-          image: tanerdiler/service-orders-api:latest
-          imagePullPolicy: Never
+          image: localhost:32000/service-orders-api:latest
           ports:
             - containerPort: 2222

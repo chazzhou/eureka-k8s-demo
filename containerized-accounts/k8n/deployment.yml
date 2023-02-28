@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: containerized-accounts
-          image: tanerdiler/service-accounts-api:latest
-          imagePullPolicy: Never
+          image: localhost:32000/service-accounts-api:latest
           ports:
             - containerPort: 2222

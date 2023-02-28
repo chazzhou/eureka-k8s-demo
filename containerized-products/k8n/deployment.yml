@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: containerized-products
-          image: tanerdiler/service-products-api:latest
-          imagePullPolicy: Never
+          image: localhost:32000/service-products-api:latest
           ports:
             - containerPort: 2222

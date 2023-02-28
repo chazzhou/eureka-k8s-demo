@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: containerized-discovery
-          image: tanerdiler/service-discovery:latest
-          imagePullPolicy: Never
+          image: localhost:32000/service-discovery:latest
           ports:
             - containerPort: 8761

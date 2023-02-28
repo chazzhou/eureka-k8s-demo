@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: containerized-gateway
-          image: tanerdiler/service-gateway:latest
-          imagePullPolicy: Never
+          image: localhost:32000/service-gateway:latest
           ports:
             - containerPort: 8762
