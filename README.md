@@ -1,4 +1,5 @@
-# SPRING BOOT MICROCSERVICE USING SPRING CLOUD, EUREKA, RIBBON, ZUUL, ZIPKIN, SLEUTH
+# Spring Boot Microservice Demo 
+*Bilt with Spring Cloud, Eureka, Ribbon, Zuul, Zipkin, and Sleuth*
 
 This project is created to get experience on **Microservices With Netflix OSS**. This is a simple project by coded imperative programming with simple business requirements.
 
